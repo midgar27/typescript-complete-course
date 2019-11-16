@@ -23,7 +23,16 @@ hobbies = [100];
 // tuples
 let address: [string, number] = ['Superstreet', 99];
 
-console.log(address[1]);
+// enum
+enum Color {
+  Gray,
+  Green = 100,
+  Blue = 2
+}
+let myColor: Color = Color.Blue;
+console.log(myColor);
+
+// console.log(address[1]);
 
 // console.log(hobbies[0]);
 // console.log(typeof hobbies);

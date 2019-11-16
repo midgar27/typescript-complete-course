@@ -18,7 +18,16 @@ hobbies = [100];
 // hobbies = 100;
 // tuples
 var address = ['Superstreet', 99];
-console.log(address[1]);
+// enum
+var Color;
+(function (Color) {
+    Color[Color["Gray"] = 0] = "Gray";
+    Color[Color["Green"] = 100] = "Green";
+    Color[Color["Blue"] = 2] = "Blue";
+})(Color || (Color = {}));
+var myColor = Color.Blue;
+console.log(myColor);
+// console.log(address[1]);
 // console.log(hobbies[0]);
 // console.log(typeof hobbies);
 // console.log('myName = ' + myName);
