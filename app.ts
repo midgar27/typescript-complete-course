@@ -15,7 +15,14 @@ let myRealAge: number;
 myRealAge = 27;
 // myRealAge = '27';
 
-console.log('myName = ' + myName);
-console.log('myAge = ' + myAge);
-console.log('hasHobbies = ' + hasHobbies);
-console.log('myRealAge = ' + myRealAge);
+// array
+let hobbies: any[] = ['Cooking', 'Sports'];
+hobbies = [100];
+
+console.log(hobbies[0]);
+// console.log(typeof hobbies);
+
+// console.log('myName = ' + myName);
+// console.log('myAge = ' + myAge);
+// console.log('hasHobbies = ' + hasHobbies);
+// console.log('myRealAge = ' + myRealAge);
