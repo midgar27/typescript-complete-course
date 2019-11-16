@@ -15,7 +15,11 @@ myRealAge = 27;
 // array
 var hobbies = ['Cooking', 'Sports'];
 hobbies = [100];
-console.log(hobbies[0]);
+// hobbies = 100;
+// tuples
+var address = ['Superstreet', 99];
+console.log(address[1]);
+// console.log(hobbies[0]);
 // console.log(typeof hobbies);
 // console.log('myName = ' + myName);
 // console.log('myAge = ' + myAge);

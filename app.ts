@@ -18,8 +18,14 @@ myRealAge = 27;
 // array
 let hobbies: any[] = ['Cooking', 'Sports'];
 hobbies = [100];
+// hobbies = 100;
 
-console.log(hobbies[0]);
+// tuples
+let address: [string, number] = ['Superstreet', 99];
+
+console.log(address[1]);
+
+// console.log(hobbies[0]);
 // console.log(typeof hobbies);
 
 // console.log('myName = ' + myName);
