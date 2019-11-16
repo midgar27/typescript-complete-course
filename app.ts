@@ -1,15 +1,21 @@
 // string
-let myName = 'Rob';
+let myName: string = 'Rob';
 // myName = 28;
 
 // number
-let myAge = 27;
+let myAge: number = 27;
 // myAge = 'Rob';
 
 // boolean
-let hasHobbies = false;
+let hasHobbies: boolean = false;
 // hasHobbies = 1;
+
+// assign types
+let myRealAge: number;
+myRealAge = 27;
+// myRealAge = '27';
 
 console.log('myName = ' + myName);
 console.log('myAge = ' + myAge);
 console.log('hasHobbies = ' + hasHobbies);
+console.log('myRealAge = ' + myRealAge);

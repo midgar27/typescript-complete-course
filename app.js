@@ -8,6 +8,11 @@ var myAge = 27;
 // boolean
 var hasHobbies = false;
 // hasHobbies = 1;
+// assign types
+var myRealAge;
+myRealAge = 27;
+// myRealAge = '27';
 console.log('myName = ' + myName);
 console.log('myAge = ' + myAge);
 console.log('hasHobbies = ' + hasHobbies);
+console.log('myRealAge = ' + myRealAge);
