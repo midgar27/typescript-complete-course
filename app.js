@@ -27,6 +27,11 @@ var Color;
 })(Color || (Color = {}));
 var myColor = Color.Blue;
 console.log(myColor);
+// any
+var car = 'BMW';
+console.log(car);
+car = { brand: 'BMW', series: 3 };
+console.log(car);
 // console.log(address[1]);
 // console.log(hobbies[0]);
 // console.log(typeof hobbies);

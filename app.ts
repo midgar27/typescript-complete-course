@@ -32,6 +32,12 @@ enum Color {
 let myColor: Color = Color.Blue;
 console.log(myColor);
 
+// any
+let car: any = 'BMW';
+console.log(car);
+car = { brand: 'BMW', series: 3 };
+console.log(car);
+
 // console.log(address[1]);
 
 // console.log(hobbies[0]);
