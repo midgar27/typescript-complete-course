@@ -48,6 +48,12 @@ function multiply(value1, value2) {
 }
 // console.log(multiply(2, 'Rob'));
 console.log(multiply(10, 2));
+// function types
+var myMultiply;
+// myMultiply = sayHello;
+// myMultiply();
+myMultiply = multiply;
+console.log(myMultiply(5, 2));
 // console.log(address[1]);
 // console.log(hobbies[0]);
 // console.log(typeof hobbies);
