@@ -65,6 +65,18 @@ let myMultiply: (val1: number, val2: number) => number;
 myMultiply = multiply;
 console.log(myMultiply(5, 2));
 
+// objects
+let userData: { name: string; age: number } = {
+  name: 'Rob',
+  age: 27
+};
+// userData = {
+//   a: 'Hello',
+//   b: 22
+// };
+
+console.log(userData);
+
 // console.log(address[1]);
 
 // console.log(hobbies[0]);

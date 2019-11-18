@@ -54,6 +54,16 @@ var myMultiply;
 // myMultiply();
 myMultiply = multiply;
 console.log(myMultiply(5, 2));
+// objects
+var userData = {
+    name: 'Rob',
+    age: 27
+};
+// userData = {
+//   a: 'Hello',
+//   b: 22
+// };
+console.log(userData);
 // console.log(address[1]);
 // console.log(hobbies[0]);
 // console.log(typeof hobbies);
