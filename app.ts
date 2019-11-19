@@ -77,6 +77,17 @@ let userData: { name: string; age: number } = {
 
 console.log(userData);
 
+// complex object
+let complex: {data: number[], output: (all: boolean ) => number[]} = {
+  data: [100, 3.99, 10],
+
+  output: function( all: boolean): number[] {
+    return this.data;
+  }
+};
+
+// complex = {};
+
 // console.log(address[1]);
 
 // console.log(hobbies[0]);

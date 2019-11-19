@@ -64,6 +64,12 @@ var userData = {
 //   b: 22
 // };
 console.log(userData);
+var complex = {
+    data: [100, 3.99, 10],
+    output: function (all) {
+        return this.data;
+    }
+};
 // console.log(address[1]);
 // console.log(hobbies[0]);
 // console.log(typeof hobbies);
